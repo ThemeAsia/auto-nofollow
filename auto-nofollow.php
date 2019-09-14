@@ -6,7 +6,7 @@
 * Plugin Name: Auto Nofollow
 * Plugin URI:  https://themeasia.net
 * Description: Auto nofollow is a really simple plugin
-* Version:     1.0.0
+* Version:     1.0.1
 * Author:      Shiponkormoker
 * Author URI:  https://github.com/Shiponkormoker/wp-plugin-starter
 * License:     GPL2
