@@ -20,12 +20,11 @@
 defined( 'ABSPATH' ) or ( 'Hey, What are you doing here? you silly human!' );
 
 
-add_filter('the_content', 'auto_nofollow');
-add_filter('the_excerpt', 'auto_nofollow');
 
 function auto_nofollow($content) {
     return preg_replace_callback('/<a[^>]+/', 'auto_nofollow_callback', $content);
 }
+
 function auto_nofollow_callback($matches) {
     $link = $matches[0];
     $site_link = get_bloginfo('url');
@@ -37,3 +36,7 @@ function auto_nofollow_callback($matches) {
     }
     return $link;
 }
+
+// Filter Hook
+add_filter('the_content', 'auto_nofollow');
+add_filter('the_excerpt', 'auto_nofollow');
