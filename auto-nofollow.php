@@ -4,14 +4,14 @@
 */
 /**
 * Plugin Name: Auto Nofollow
-* Plugin URI:  https://themeasia.net
+* Plugin URI:  https://github.com/themeasia/auto-nofollow
 * Description: Auto nofollow is a really simple plugin
 * Version:     1.0.1
-* Author:      Shiponkormoker
-* Author URI:  https://github.com/Shiponkormoker/wp-plugin-starter
+* Author:      ThemeAsia
+* Author URI:  https://themeasia.net
 * License:     GPL2
 * License URI: https://www.gnu.org/licenses/gpl-2.0.html
-* Text Domain: wporg, autonofollow
+* Text Domain: autonofollow
 * Domain Path: /languages 
 */
 
