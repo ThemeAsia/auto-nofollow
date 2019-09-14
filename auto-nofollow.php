@@ -15,6 +15,11 @@
 * Domain Path: /languages 
 */
 
+
+// If this file is called firectily, abort!!
+defined( 'ABSPATH' ) or ( 'Hey, What are you doing here? you silly human!' );
+
+
 add_filter('the_content', 'auto_nofollow');
 add_filter('the_excerpt', 'auto_nofollow');
 
