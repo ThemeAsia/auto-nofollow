@@ -5,7 +5,7 @@
 /**
 * Plugin Name: Auto Nofollow
 * Plugin URI:  https://github.com/themeasia/auto-nofollow
-* Description: Auto nofollow is a really simple plugin
+* Description: WordPress All post a tag all external link auto nofollow plugin
 * Version:     1.0.1
 * Author:      ThemeAsia
 * Author URI:  https://themeasia.net
